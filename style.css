@@ -37,10 +37,23 @@ h4 {
     margin: 10px;
 }
 
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 .container > h2 {
     font-size: 32;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
+}
+
+.row {
+    margin-bottom: 60px;
+}
+
+p {
+    font-size: 18px;
 }
 
 footer {
