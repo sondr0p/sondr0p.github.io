@@ -36,3 +36,8 @@
 .social {
     margin: 10px;
 }
+
+.container > h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
