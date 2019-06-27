@@ -1,8 +1,38 @@
-body {
-    text-align: left
+.nav > ul > li {
+    list-style: none;
+    font-size: 1.2rem;
+    padding: 20px;
 }
 
-#hello {
+.nav > ul > li > a {
+    color: darkorchid;
+}
+
+.main {
+    margin-top: 77.6px;
+}
+
+.main > h2 {
+    margin: 20px;
+    font-weight: 700;
+}
+
+.main > h2, h4 {
     text-align: center;
-    margin-top: 7rem;
+}
+
+.main > h4 {
+    font-size: 1.2rem;
+}
+
+.links {
+    display: inline-block;
+}
+
+.icons {
+    height: 30px;
+}
+
+.social {
+    margin: 10px;
 }
