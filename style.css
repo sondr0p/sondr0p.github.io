@@ -21,7 +21,7 @@
     text-align: center;
 }
 
-.main > h4 {
+h4 {
     font-size: 1.2rem;
 }
 
@@ -38,6 +38,26 @@
 }
 
 .container > h2 {
+    font-size: 32;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+footer {
+    font-size: 12px;
+    color: darkgrey;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.animate{
+    animation-name: fade;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fade {
+    from {opacity: 0; transform: translateY(-20px);}
+    to {opacity: 1; transform: translateY(0px);}
 }
